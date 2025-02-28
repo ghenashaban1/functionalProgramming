@@ -1,6 +1,6 @@
 package forcom.chapter6
 
-type Rand[A] = State[RNG, A]
+//type Rand[A] = State[RNG, A]
 opaque type State[S, +A] = S => (A, S)
 object State {
 extension [S, A](underlying: State[S, A]) {
