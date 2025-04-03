@@ -1,3 +1,3 @@
-package forcom.chapter6
+// package forcom.chapter6
 
-def rollDie: Rand[Int] = map(nonNegativeLessThan(6))(_ + 1)
+// def rollDie: Rand[Int] = map(nonNegativeLessThan(6))(_ + 1)

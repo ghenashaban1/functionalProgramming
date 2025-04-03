@@ -73,8 +73,8 @@ fork {
 }
 
 // is this instead of the fork ?
-def delay[A](fa: => Par[A]): Par[A] =
-es => fa(es)
+// def delay[A](fa: => Par[A]): Par[A] =
+// es => fa(es)
 
 // extension [A](pa: Par[A]) 
 //   def run(s: ExecutorService): Future[A] = pa(s)
